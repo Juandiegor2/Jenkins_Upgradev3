@@ -28,8 +28,10 @@ public class TestGreeter {
   }
  
  @Test
-  public void Intentionally_Failed() {
-    assertTrue(false);
+  public void test() {
+    String someone = "World";
+
+    assertThat(greeter.greet(someone), containsString(someone));
   }
   
   @Test
