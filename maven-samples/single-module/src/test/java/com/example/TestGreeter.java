@@ -29,7 +29,16 @@ public class TestGreeter {
  
  @Test
   public void test() {
-     assertTrue(false);
+    String someone = "World";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+
+  @Test
+  public void test2() {
+    String someone = "World";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
   
   @Test
