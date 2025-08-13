@@ -29,9 +29,7 @@ public class TestGreeter {
  
  @Test
   public void test() {
-    String someone = "World";
-
-    assertTrue(false);
+     assertTrue(false);
   }
   
   @Test
