@@ -28,10 +28,8 @@ public class TestGreeter {
   }
  
  @Test
-  public void test() {
-    String someone = "World";
-
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  public void Intentionallly_Failed() {
+    assertTrue(false);
   }
 
   @Test
