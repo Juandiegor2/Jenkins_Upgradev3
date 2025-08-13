@@ -31,7 +31,7 @@ public class TestGreeter {
   public void test() {
     String someone = "World";
 
-    assertThat(greeter.greet(someone), containsString(someone));
+    assertTrue(false);
   }
   
   @Test
